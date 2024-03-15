@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <script src="Sign_up.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <title>Sign up</title>
+  </head>
+  <body>
+    <div class="container">
+        <header>Create Account</header>
+        <form>
+            <div class="input-field">
+                <input type="text" required id="t1">
+                <label>Username</label>
+            </div>
+            <div class="input-field">
+                <input type="email" required id="t3">
+                <label>Email</label>
+            </div>
+            <div class="input-field">
+                <input type="password" required id="t2">
+                <label>New Password</label>
+            </div>
+            <div class="input-field">
+                <input type="password" required id="t4">
+                <label>Confirm Password</label>
+            </div>
+            <div class="button">
+                <div class="inner"></div>
+                <button onclick="Sign_up()">Sign up</button>
+            </div>
+            <div class="button">
+                <div class="inner"></div>
+                <button onclick="login()">Login</button>
+            </div>
+            
+        </form>
+    </div>
+  </body>

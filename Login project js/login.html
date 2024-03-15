@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <script src="login.js"></script>
+    
+    <title>login</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+  </head>
+  <body>
+    <div class="container">
+        <header><i>LOGIN</i></header>
+        <form>
+            <div class="input-field">
+                <input type="text" required id="t1">
+                <label>Username</label>
+            </div>
+            <div class="input-field">
+                <input type="password" required id="t2">
+                <label>Password</label>
+            </div>
+            <div class="button">
+                <div class="inner"></div>
+                <button onclick="login()">LOGIN</button>
+                
+            </div>
+            <h5><span class="signup">Not a Member? <a href="Sign_up.html">Signup now</a></span></h5>
+            <br>
+            <br>
+            <h5><span class="psw">Forgot <a href="fpassword.html">password?</a></span></h5>
+            <div id="alertContainer"></div>
+        </form>
+    </div>
+  </body>
